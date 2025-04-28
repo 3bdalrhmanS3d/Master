@@ -1,0 +1,6 @@
+go mod init github.com/yourusername/yourproject && \
+go get github.com/gorilla/websocket@latest \
+        github.com/shirou/gopsutil/cpu@latest \
+        github.com/shirou/gopsutil/mem@latest \
+        github.com/shirou/gopsutil/disk@latest && \
+go mod tidy
